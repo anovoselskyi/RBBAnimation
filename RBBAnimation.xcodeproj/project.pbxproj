@@ -69,6 +69,27 @@
 		54F3AE421807394800E1E688 /* libRBBAnimation iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F3AE2A1807394800E1E688 /* libRBBAnimation iOS.a */; };
 		6439C0B3C2C941869D563894 /* libPods-RBBAnimationTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9764F4EDA8D64676ADE7428E /* libPods-RBBAnimationTest.a */; };
 		88D1CBC6B26446F4BE5A393F /* libPods-Specs-Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E856D162B1FB41A29C1DD243 /* libPods-Specs-Mac.a */; };
+		BED0E4EF20C18FDA00DD522C /* RBBAnimation_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = BED0E4ED20C18FDA00DD522C /* RBBAnimation_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BED0E4F320C1904100DD522C /* RBBAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F3AE341807394800E1E688 /* RBBAnimation.m */; };
+		BED0E4F420C1904100DD522C /* RBBCustomAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5479BEA3181D8008009811FD /* RBBCustomAnimation.m */; };
+		BED0E4F520C1904100DD522C /* RBBTweenAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 545D5AB9180B1FAE00FC94AB /* RBBTweenAnimation.m */; };
+		BED0E4F620C1904100DD522C /* RBBSpringAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 545D5AC4180C138D00FC94AB /* RBBSpringAnimation.m */; };
+		BED0E4F720C1904100DD522C /* RBBLinearInterpolation.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D5EA88181AE8620014896C /* RBBLinearInterpolation.m */; };
+		BED0E4F820C1904100DD522C /* RBBEasingFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 545D5AC1180B5E8400FC94AB /* RBBEasingFunction.m */; };
+		BED0E4F920C1904100DD522C /* RBBCubicBezier.m in Sources */ = {isa = PBXBuildFile; fileRef = 545D5ABE180B2D3F00FC94AB /* RBBCubicBezier.m */; };
+		BED0E4FA20C1904100DD522C /* RBBBlockBasedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 5466C56018082BEB00652BDC /* RBBBlockBasedArray.m */; };
+		BED0E4FB20C1904100DD522C /* NSValue+PlatformIndependence.m in Sources */ = {isa = PBXBuildFile; fileRef = 540F65A618F82347005A6BB8 /* NSValue+PlatformIndependence.m */; };
+		BED0E4FC20C1904100DD522C /* UIColor+PlatformIndependence.m in Sources */ = {isa = PBXBuildFile; fileRef = 540F65B218F83F98005A6BB8 /* UIColor+PlatformIndependence.m */; };
+		BED0E4FD20C1905500DD522C /* RBBAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F3AE321807394800E1E688 /* RBBAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BED0E4FE20C1905500DD522C /* RBBCustomAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5479BEA2181D8008009811FD /* RBBCustomAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BED0E4FF20C1905500DD522C /* RBBTweenAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 545D5AB8180B1FAE00FC94AB /* RBBTweenAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BED0E50020C1905500DD522C /* RBBSpringAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 545D5AC3180C138D00FC94AB /* RBBSpringAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BED0E50120C1905500DD522C /* RBBLinearInterpolation.h in Headers */ = {isa = PBXBuildFile; fileRef = 54D5EA87181AE8620014896C /* RBBLinearInterpolation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BED0E50220C1905500DD522C /* RBBEasingFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = 545D5AC0180B5E8400FC94AB /* RBBEasingFunction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BED0E50320C1905500DD522C /* RBBCubicBezier.h in Headers */ = {isa = PBXBuildFile; fileRef = 545D5ABD180B2D3F00FC94AB /* RBBCubicBezier.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BED0E50420C1905500DD522C /* RBBBlockBasedArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 5466C55F18082BEB00652BDC /* RBBBlockBasedArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BED0E50520C1905500DD522C /* NSValue+PlatformIndependence.h in Headers */ = {isa = PBXBuildFile; fileRef = 540F65A518F82347005A6BB8 /* NSValue+PlatformIndependence.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BED0E50620C1905500DD522C /* UIColor+PlatformIndependence.h in Headers */ = {isa = PBXBuildFile; fileRef = 540F65B118F83F98005A6BB8 /* UIColor+PlatformIndependence.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CA49CA861D544AAD806A9A8B /* libPods-Specs-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1C7CF8386EA4D9896C0AD15 /* libPods-Specs-iOS.a */; };
 /* End PBXBuildFile section */
 
@@ -172,6 +193,9 @@
 		7582873345F4B52FF68854CB /* Pods-Specs-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Specs-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Specs-iOS/Pods-Specs-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		9764F4EDA8D64676ADE7428E /* libPods-RBBAnimationTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RBBAnimationTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1C7CF8386EA4D9896C0AD15 /* libPods-Specs-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Specs-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BED0E4EB20C18FDA00DD522C /* RBBAnimation_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RBBAnimation_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BED0E4ED20C18FDA00DD522C /* RBBAnimation_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RBBAnimation_iOS.h; sourceTree = "<group>"; };
+		BED0E4EE20C18FDA00DD522C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2A7704395D460556362784E /* Pods-Specs-Mac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Specs-Mac.release.xcconfig"; path = "Pods/Target Support Files/Pods-Specs-Mac/Pods-Specs-Mac.release.xcconfig"; sourceTree = "<group>"; };
 		E856D162B1FB41A29C1DD243 /* libPods-Specs-Mac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Specs-Mac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED73BC249900E38EB30B303F /* Pods-RBBAnimationTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RBBAnimationTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RBBAnimationTest/Pods-RBBAnimationTest.debug.xcconfig"; sourceTree = "<group>"; };
@@ -232,6 +256,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BED0E4E720C18FDA00DD522C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -279,6 +310,7 @@
 				54F3AE2F1807394800E1E688 /* RBBAnimation */,
 				54F3AE431807394800E1E688 /* Specs */,
 				5466C56D180849D200652BDC /* RBBAnimationTest */,
+				BED0E4EC20C18FDA00DD522C /* RBBAnimation_iOS */,
 				54F3AE2C1807394800E1E688 /* Frameworks */,
 				54F3AE2B1807394800E1E688 /* Products */,
 				AF8189F9DF1EC1EA504BCBB0 /* Pods */,
@@ -293,6 +325,7 @@
 				5466C568180849D100652BDC /* RBBAnimationTest.app */,
 				549ECA9418F814A000D968C7 /* RBBAnimation Mac.framework */,
 				549ECAA918F814A000D968C7 /* Specs-Mac.xctest */,
+				BED0E4EB20C18FDA00DD522C /* RBBAnimation_iOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -387,6 +420,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		BED0E4EC20C18FDA00DD522C /* RBBAnimation_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				BED0E4ED20C18FDA00DD522C /* RBBAnimation_iOS.h */,
+				BED0E4EE20C18FDA00DD522C /* Info.plist */,
+			);
+			path = RBBAnimation_iOS;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -404,6 +446,24 @@
 				540F65A718F82347005A6BB8 /* NSValue+PlatformIndependence.h in Headers */,
 				540F65AF18F83EB3005A6BB8 /* NSColor+PlatformIndependence.h in Headers */,
 				549ECACC18F8157200D968C7 /* RBBBlockBasedArray.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BED0E4E820C18FDA00DD522C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BED0E4EF20C18FDA00DD522C /* RBBAnimation_iOS.h in Headers */,
+				BED0E4FD20C1905500DD522C /* RBBAnimation.h in Headers */,
+				BED0E4FE20C1905500DD522C /* RBBCustomAnimation.h in Headers */,
+				BED0E4FF20C1905500DD522C /* RBBTweenAnimation.h in Headers */,
+				BED0E50020C1905500DD522C /* RBBSpringAnimation.h in Headers */,
+				BED0E50120C1905500DD522C /* RBBLinearInterpolation.h in Headers */,
+				BED0E50220C1905500DD522C /* RBBEasingFunction.h in Headers */,
+				BED0E50320C1905500DD522C /* RBBCubicBezier.h in Headers */,
+				BED0E50420C1905500DD522C /* RBBBlockBasedArray.h in Headers */,
+				BED0E50520C1905500DD522C /* NSValue+PlatformIndependence.h in Headers */,
+				BED0E50620C1905500DD522C /* UIColor+PlatformIndependence.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,6 +566,24 @@
 			productReference = 54F3AE3A1807394800E1E688 /* Specs-iOS.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		BED0E4EA20C18FDA00DD522C /* RBBAnimation_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BED0E4F220C18FDA00DD522C /* Build configuration list for PBXNativeTarget "RBBAnimation_iOS" */;
+			buildPhases = (
+				BED0E4E620C18FDA00DD522C /* Sources */,
+				BED0E4E720C18FDA00DD522C /* Frameworks */,
+				BED0E4E820C18FDA00DD522C /* Headers */,
+				BED0E4E920C18FDA00DD522C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RBBAnimation_iOS;
+			productName = RBBAnimation_iOS;
+			productReference = BED0E4EB20C18FDA00DD522C /* RBBAnimation_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -520,6 +598,10 @@
 					};
 					54F3AE391807394800E1E688 = {
 						TestTargetID = 54F3AE291807394800E1E688;
+					};
+					BED0E4EA20C18FDA00DD522C = {
+						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -540,6 +622,7 @@
 				549ECA9318F814A000D968C7 /* RBBAnimation Mac */,
 				549ECAA818F814A000D968C7 /* Specs-Mac */,
 				5466C567180849D100652BDC /* RBBAnimationTest */,
+				BED0E4EA20C18FDA00DD522C /* RBBAnimation_iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -573,6 +656,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				540F65A318F81DC9005A6BB8 /* (null) in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BED0E4E920C18FDA00DD522C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -748,6 +838,23 @@
 				5466C56318082D4200652BDC /* RBBBlockBasedArraySpec.m in Sources */,
 				549ECA8418F6ECFC00D968C7 /* RBBSpringAnimationSpec.m in Sources */,
 				540F65AB18F82B3E005A6BB8 /* RBBLinearInterpolationSpec.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BED0E4E620C18FDA00DD522C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BED0E4F320C1904100DD522C /* RBBAnimation.m in Sources */,
+				BED0E4F420C1904100DD522C /* RBBCustomAnimation.m in Sources */,
+				BED0E4F520C1904100DD522C /* RBBTweenAnimation.m in Sources */,
+				BED0E4F620C1904100DD522C /* RBBSpringAnimation.m in Sources */,
+				BED0E4F720C1904100DD522C /* RBBLinearInterpolation.m in Sources */,
+				BED0E4F820C1904100DD522C /* RBBEasingFunction.m in Sources */,
+				BED0E4F920C1904100DD522C /* RBBCubicBezier.m in Sources */,
+				BED0E4FA20C1904100DD522C /* RBBBlockBasedArray.m in Sources */,
+				BED0E4FB20C1904100DD522C /* NSValue+PlatformIndependence.m in Sources */,
+				BED0E4FC20C1904100DD522C /* UIColor+PlatformIndependence.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1047,6 +1154,102 @@
 			};
 			name = Release;
 		};
+		BED0E4F020C18FDA00DD522C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = RBBAnimation_iOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_CFLAGS = "-DTARGET_OS_IPHONE";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.novos.RBBAnimation-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BED0E4F120C18FDA00DD522C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = RBBAnimation_iOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = "-DTARGET_OS_IPHONE";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.novos.RBBAnimation-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1100,6 +1303,15 @@
 			buildConfigurations = (
 				54F3AE511807394800E1E688 /* Debug */,
 				54F3AE521807394800E1E688 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BED0E4F220C18FDA00DD522C /* Build configuration list for PBXNativeTarget "RBBAnimation_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BED0E4F020C18FDA00DD522C /* Debug */,
+				BED0E4F120C18FDA00DD522C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
